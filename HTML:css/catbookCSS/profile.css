@@ -1,0 +1,75 @@
+.preview{
+    background-color: white;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 150px;
+    box-shadow: 0px 0px 5px rgb(95, 95, 95);
+    border-radius: 2px;
+}
+.pfpDiv{
+    margin-left:2%;
+    display: inline-block;
+    width: 16.667%;
+    height: 100%;
+    vertical-align: top;
+}
+.pfp{
+    margin-top: 25%;
+    margin-bottom: 25%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.usrInfoDiv{
+    margin-left:2%;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+.followDiv{
+    vertical-align: top;
+    height: 100%;
+    width: 26%;
+    margin-right: 2%;
+    display: inline-block;
+}
+.desc, .status, .name{
+    font-family: Poppins;
+    color: gray;
+    margin-top: 6.5%;
+    margin-bottom: 6.5%;
+}
+.name{
+    font-weight: bold;
+    color: black;
+}
+.name:hover{
+    cursor: pointer;
+}
+.status{
+    font-style: italic;
+}
+.add{
+    height: 35%;
+    margin-top: 35%;
+    margin-bottom: 35%;
+    width: 100%;
+    background-color: rgb(34, 110, 137);
+    border: none;
+    color: white;
+    font-family: Poppins;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px gray;
+    transition: opacity 0.20s;
+    font-size: 100%;
+}
+.add:hover{
+    cursor: pointer;
+}
+.add:active{
+    opacity: 0.7;
+}
